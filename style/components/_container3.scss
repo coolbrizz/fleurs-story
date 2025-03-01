@@ -1,0 +1,294 @@
+.container3 {
+    position: relative;
+    max-width: 1200px;
+    min-height: 600px; 
+    width: 80%;
+    margin: auto;
+    .bloc-container3{
+        margin-top: -100px;
+        .texte-bloc3{
+            padding: 50px 0 50px 0;
+            line-height: 30px;
+                color: #666;
+        }
+            }
+.text-container3{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+padding-top: 60px;
+h4{
+    font-size: 20px;
+}
+}
+.title {
+    position : absolute;
+    max-height: 60px;
+    width: 900px;
+    border-radius: 20px;
+    background-color: lightgray; 
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+    padding: 15px;
+    margin: 15px;
+    top: -65px; 
+    z-index: 10;
+        left: 50%; 
+        transform: translateX(-50%);
+    h2{
+        padding: 0 20px 0 20px;
+    }
+    img{
+        height: 60px;width: 60px;
+    }
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+padding: 40px 40px 0 40px;
+    justify-content: center;
+    
+    @media screen and (max-width: 1220px) {
+        grid-template-columns: repeat(2, 1fr); // 2 cartes par ligne sur tablette
+    }
+
+    @media screen and (max-width: 600px) {
+        grid-template-columns: repeat(1, 1fr); // 1 carte par ligne sur mobile
+    }
+}
+@media screen and (max-width: 1220px) {
+    .container3{
+        width: 100%;
+        
+    }
+    .text-container3{
+        padding-top: 10px;
+    }
+.bloc-container3{
+    padding: 0px 10px 0 10px;
+    .texte-bloc3{
+        padding: 50px 0px 50px 0px;
+    }
+}}
+@media screen and (max-width: 1000px) {
+    .title{
+        height: auto;width: 100%;max-height: 100%;
+text-align: center;  
+
+flex-direction: column;
+    
+    img{
+        display: none;
+    }
+}
+}
+.grid-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    position: relative;
+    width: 100%;
+    max-width: 320px;
+    min-width: 250px;
+    height: 350px;
+    border-radius: 15px;
+    overflow: hidden;
+    background-color: rgba(154, 186, 163, 1);
+    border: 1px solid #9ABA9F; /* Correction ici */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    background: rgba(154, 186, 163, 0.8);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card:hover img {
+    transform: scale(1.2);
+    filter: brightness(0.8);
+}
+
+.card .description {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: rgba(154, 186, 163, 1);
+    color: #666;
+    text-align: center;
+    padding: 15px;
+    font-size: 20px; /* Correction, 55px est trop grand */
+    font-weight: bold;
+    font-family: "sourgummy", sans-serif;
+    z-index: 100;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
+}
+
+.card:hover .description {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    background: rgba(154, 186, 163, 0.8);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+button{
+    padding: 50px;
+    border: none;
+    background-color: $color1;
+}
+.btn-floral {
+    display: inline-block;
+    padding: 12px 25px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #FDFBF9;
+    background: linear-gradient(45deg, #475C4E, #F5DABC);
+    border: none;
+    border-radius: 30px;
+    text-decoration: none;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 2px 2px 10px rgba(71, 92, 78, 0.3);
+    
+    &:hover {
+        background: linear-gradient(45deg, #F5DABC, #475C4E);
+        transform: scale(1.05);
+        box-shadow: 2px 2px 15px rgba(71, 92, 78, 0.5);
+    }
+
+    &:active {
+        transform: scale(0.95);
+    }
+}
+
+}
+.location-block {
+    display: flex;
+    align-items: stretch; 
+    border-radius: 10px;
+    max-width: 80%;
+    max-height: 250px;
+    overflow: hidden; /* Empêche les débordements */
+    margin-top: 60px;
+    margin-bottom: 20px;
+    background: rgba(154, 186, 163, 0.5);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.image-container {
+    flex: 1; 
+    display: flex; 
+    min-height: 250px;
+}
+
+.image-adresse {
+    width: 100%; /* Garde la largeur à 100% */
+    height: 100%; /* Étire l'image pour prendre toute la hauteur */
+    object-fit: cover; /* Ajuste l'image sans la déformer */
+    border-radius: 5px 0 0 5px; /* Ajuste seulement le coin gauche */
+}
+
+.info-container {
+    flex: 1;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.info-container h2 {
+    font-size: 34px;
+
+    color: #333;
+}
+
+.info-container p {
+    margin: 5px 0;
+    padding: 10px;
+    line-height: 25px;
+
+}
+
+.phone-number a {
+    color: $color4;
+    font-weight: bold;
+    font-size: 2.1vh;
+    &:hover{
+        font-size: 2.3vh;
+    }
+}
+
+.discover-link {
+    display: inline-block;
+    margin-top: 10px;
+    color: #4CAF50;
+    text-decoration: none;
+    font-weight: bold;
+    border-bottom: 2px solid #4CAF50;
+    transition: 0.3s;
+}
+
+.discover-link:hover {
+    color: #2e7d32;
+    border-bottom: 2px solid #2e7d32;
+    text-decoration: none;
+}
+@media (max-width: 768px) {
+    .location-block {
+        flex-direction: column; /* Passe en colonne */
+        max-width: 90%;
+        text-align: center;
+        max-height: fit-content;
+    }
+    .image-container {
+        min-height: 200px; /* Ajuste la hauteur */
+    }
+
+    .image-adresse {
+        border-radius: 5px 5px 0 0; /* Coins arrondis uniquement en haut */
+    }
+
+    .info-container {
+        padding: 15px;
+    }
+
+    .info-container h2 {
+        font-size: 24px;
+    }
+}
+
+/* Responsive pour Mobile (480px) */
+@media (max-width: 480px) {
+    .container3 .bloc-container3 {
+        padding-top: 30px;
+    }
+    .location-block {
+        max-width: 95%;
+        max-height: fit-content;
+    }
+    .info-container h2 {
+        font-size: 22px;
+    }
+
+    .phone-number a {
+        font-size: 1.8vh;
+    }
+}

@@ -1,0 +1,175 @@
+.navbar {
+    position: relative;
+    background-color: $color1;
+    height: 80px;
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li, .contact ul li a {
+    margin: 0 30px;
+}
+.contact ul{
+    list-style: none;
+}
+nav ul li a, .contact a {
+    text-decoration: none;
+    color: #666;
+    font-size: 25px;
+font-weight: normal;
+font-family: "sourgummy";
+}
+.nav-links .lien:hover, .nav-links .lien.active {
+    color: $color3;
+    text-decoration: underline;
+  }
+  
+ 
+  
+  .nav-links .lien:hover::after, .nav-links .lien.active::after {
+    width: 100%;
+  }
+.logo-img {
+
+    top : -100px;
+left : 50%;
+transform: translateX(-50%);
+height: 30vh;
+width: 30vh;
+padding: 0;
+margin: 0;
+border-radius: 250px;
+background-color: $color1;
+    position: absolute;
+    img{
+        position: absolute;
+        bottom : 5px;
+        left : 15%;
+        height: 20vh;
+    }
+}
+
+/* Section Hero */
+.hero {
+    background: url('/Images/back2.webp') center/cover no-repeat;
+    height: 650px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.hero-text {
+    max-width: 500px;
+    margin: 100px 50px 0 0 ;
+}
+
+.hero-text h1 {
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+    color: transparent;
+    background: linear-gradient(45deg, #ad9d89, #a8a6a4, #5e544a);
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.hero-text p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+.burger-menu {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    gap: 7px;
+margin: 15px;
+z-index: 1000;
+}
+
+.burger-menu span {
+    width: 40px;
+    height: 4px;
+    border-radius: 10px;
+    background-color: $color2;
+    transition: all 0.3s ease;
+}
+@media screen and (max-width: 1200px) {
+    ul#nav-contact-links {
+        padding: 0 13px;
+    }
+#nav-main-links, #nav-contact-links {
+    position: absolute;
+    top: 80px;
+    right: 0;
+    width: auto;
+    justify-content: center;
+    height: auto;
+    background-color: $color1;
+    flex-direction: column;
+    display: none;
+
+    z-index: 1000;
+}
+
+#nav-main-links.active, #nav-contact-links.active {
+    display: flex;
+    li{
+        padding: 5px ;
+    }
+
+}
+#nav-contact-links.active {
+    margin-top: 120px;
+    border-radius: 0 0 0 10px;
+    padding: 0px 21px;
+    ul li a{
+        padding: 30px;
+    }
+}
+
+/* Animation du menu burger */
+.burger-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    cursor: pointer;
+    gap: 7px;
+    margin: 15px;
+    z-index: 1000;
+
+}
+.burger-menu.active span:nth-child(1) {
+    transform: translateY(11px) rotate(45deg);
+}
+
+.burger-menu.active span:nth-child(2) {
+    opacity: 0;
+}
+
+.burger-menu.active span:nth-child(3) {
+    transform: translateY(-11px) rotate(-45deg);
+}
+}
+@media screen and (max-width: 1000px) {
+    .hero .hero-text h1{
+        color: #666;
+    }
+    .hero{
+        max-height: 500px;
+    }}
+@media screen and (max-width: 468px) {
+    .hero .hero-text h1{
+        display: none;
+    }
+.hero{
+    max-height: 300px;
+}}

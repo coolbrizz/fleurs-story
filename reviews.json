@@ -1,0 +1,71 @@
+
+{
+    "html_attributions" : [],
+    "result" : 
+    {
+       "reviews" : 
+       [
+          {
+             "author_name" : "jul label",
+             "author_url" : "https://www.google.com/maps/contrib/116753022079854145916/reviews",
+             "language" : "fr",
+             "original_language" : "fr",
+             "profile_photo_url" : "https://lh3.googleusercontent.com/a/ACg8ocJ6BSw5CRJdqESi8Q_frMeHKILT4hVzQitKSQfTZiHi5ZP6sw=s128-c0x00000000-cc-rp-mo",
+             "rating" : 5,
+             "relative_time_description" : "il y a une semaine",
+             "text" : "Nous sommes venus chez cette fleuriste pour rattraper un bouquet acheté ailleurs, et quelle belle surprise ! L’équipe a fait preuve d’une grande gentillesse et d’un professionnalisme remarquable. Elles ont transformé un bouquet décevant en une création magnifique, parfaitement emballée avec soin et goût. En plus, les prix sont plus que raisonnables. Je suis repartie ravie ! Merci encore pour votre talent et votre accueil chaleureux.",
+             "time" : 1738422696,
+             "translated" : false
+          },
+          {
+             "author_name" : "Di Paola Julien",
+             "author_url" : "https://www.google.com/maps/contrib/101649476573440490715/reviews",
+             "language" : "fr",
+             "original_language" : "fr",
+             "profile_photo_url" : "https://lh3.googleusercontent.com/a-/ALV-UjVh8K8qsQDnnn7Mh2UnANzAh-CQmxavM9vsrMZ35hyy6iw3zdVh=s128-c0x00000000-cc-rp-mo-ba3",
+             "rating" : 5,
+             "relative_time_description" : "il y a 4 mois",
+             "text" : "Je tiens à exprimer ma satisfaction envers ce fleuriste exceptionnel. Leur savoir-faire artisanal se traduit par des créations florales d'une beauté remarquable. Chaque bouquet est une œuvre d'art, soigneusement composée avec des fleurs fraîches et de qualité. Le service est toujours chaleureux et attentif, ce qui rend chaque visite agréable. Que ce soit pour un événement spécial ou simplement pour égayer son quotidien, je recommande vivement cet artisan pour son professionnalisme et sa passion. Une vérité",
+             "time" : 1728152750,
+             "translated" : false
+          },
+          {
+             "author_name" : "Carlos Balmaceda telleria",
+             "author_url" : "https://www.google.com/maps/contrib/113306832052611314615/reviews",
+             "language" : "fr",
+             "original_language" : "fr",
+             "profile_photo_url" : "https://lh3.googleusercontent.com/a-/ALV-UjWog5BN7XDH9Aewlv9SsnyrLD0n0swyBdJQPa9dvcGQiXDRgkEI=s128-c0x00000000-cc-rp-mo",
+             "rating" : 5,
+             "relative_time_description" : "il y a 3 mois",
+             "text" : "Un grand merci à Lucile et son équipe pour leur accueil et leur professionnalisme. Les bouquets sont toujours soignés et de très bonne qualité. Ma femme a été vraiment ravie du bouquet que nous avons reçu, il était parfait. Une adresse à recommander pour ceux qui recherchent des fleurs fraîches et un service attentif. Merci encore",
+             "time" : 1731405208,
+             "translated" : false
+          },
+          {
+             "author_name" : "Léa Bny",
+             "author_url" : "https://www.google.com/maps/contrib/118296709341755900184/reviews",
+             "language" : "fr",
+             "original_language" : "fr",
+             "profile_photo_url" : "https://lh3.googleusercontent.com/a-/ALV-UjV0z5ZkK1Pw9ahi-kQyRgxfI_s8FQjJGWmnFPSz1ySFYswJBq89=s128-c0x00000000-cc-rp-mo",
+             "rating" : 5,
+             "relative_time_description" : "il y a un an",
+             "text" : "À la recherche d’un bouquet confectionné sur place, c’est le seul fleuriste qui a su répondre à ma demande ! Merci milles fois pour ce magnifique bouquet pour l’anniversaire de ma mère. Les 3 dames qui m’ont reçue ont fait preuve d’écoute et d’un service incroyable !",
+             "time" : 1703421051,
+             "translated" : false
+          },
+          {
+             "author_name" : "Sabry",
+             "author_url" : "https://www.google.com/maps/contrib/102070943620309046492/reviews",
+             "language" : "fr",
+             "original_language" : "fr",
+             "profile_photo_url" : "https://lh3.googleusercontent.com/a/ACg8ocL3e-hIklZMkycJVDyNBlYeeOCuOXRzVI_m7d7ThB2mCa17Xw=s128-c0x00000000-cc-rp-mo",
+             "rating" : 5,
+             "relative_time_description" : "il y a un mois",
+             "text" : "Excellente inspiration pour le bouquet du mariage à mon cousin, composition absolument magnifique!",
+             "time" : 1736589118,
+             "translated" : false
+          }
+       ]
+    },
+    "status" : "OK"
+ }

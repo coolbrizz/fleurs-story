@@ -1,0 +1,95 @@
+.container2 {
+    position: relative;
+    min-height: 80vh;
+    background-color: #9ABAA3;
+    text-align: center;
+    top: -120px;
+    padding: 20px;
+
+
+}
+
+.bloc-fleuriste {
+    display: flex;
+    align-items: center;
+width: 80%;
+    margin: auto;
+    padding-top: 120px;
+    max-width: 1200px;
+    margin: auto;
+    z-index: 0;
+    gap: 30px;
+}
+
+.bloc-fleuriste img {
+    border-radius: 25px;
+    aspect-ratio: 4/5;
+}
+
+.texte-fleuriste {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.texte-fleuriste h2 {
+    font-size: 2rem;
+    color: $color3;
+    margin-bottom: 15px;text-align: center;
+}
+
+.texte-fleuriste p {
+    font-size: 16px;
+    color: #333;
+    margin: 10px 0;
+    line-height: 1.8;
+}
+
+/* 🌎 RESPONSIVE - TABLETTES & MOBILES */
+@media screen and (max-width: 1180px) {
+    .bloc-fleuriste {
+        flex-direction: column;
+        margin: 0 50px;
+        padding-top: 80px;
+    }
+
+    .bloc-fleuriste img {
+        max-width: 30%;
+    }
+
+    .texte-fleuriste p {
+        width: 90%;
+        font-size: 2vh;
+        padding-bottom: 100px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .bloc-fleuriste {
+        margin: 0 30px;
+        padding-top: 50px;
+        max-width: none;
+    }
+
+    .bloc-fleuriste img {
+        max-width: 70%;
+    }
+
+    .texte-fleuriste h2 {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .texte-fleuriste p {
+        width: 95%;
+        font-size: 1.6vh;
+        text-align: justify;
+        padding: 0;
+    }
+}
+@media screen and (max-width: 600px) {
+    .container2{
+        padding: 30px 10px 30px 10px;
+        margin: auto;
+    }
+}

@@ -1,0 +1,62 @@
+/* 🌸 Section contact */
+.container-contact {
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 140px;
+}
+.contact-form p {
+    padding: 10px 0px;
+}
+.contact-form h1 {
+    text-align: center;
+    color: $color4;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    font-weight: bold;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.submit-btn {
+    background-color: $color4;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.submit-btn:hover {
+    background-color: $color2;
+}
+.container-back{
+    text-align: center;
+margin-bottom: 30px;
+    .back a{
+text-decoration: none;
+color: $color4; 
+    }
+}
+.contact-form h1 a {
+    text-decoration: none;
+    color: $color2;
+    &:hover{
+        text-decoration: underline;
+}
+}

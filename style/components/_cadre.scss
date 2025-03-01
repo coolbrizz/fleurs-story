@@ -1,0 +1,88 @@
+.grid-container2 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 colonnes */
+    gap: 5px;
+    padding: 20px;
+    justify-content: center;
+}
+
+.container-cadre {
+    display: flex;
+    justify-content: center;
+}
+
+.card2 {
+    position: relative; /* Ajouté pour que le positionnement absolu fonctionne */
+    width: 100%;
+    max-width: 200px;
+    min-width: 250px;
+    height: 300px;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cadre {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1; /* Le cadre doit être devant */
+}
+
+.image-cadre {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 210px;
+    height: 260px;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+    z-index: 2; /* L'image doit être au-dessus du cadre */
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+.card2:hover .image-cadre {
+    transform: translate(-50%, -50%) scale(1.1);
+    filter: brightness(1.1); /* Optionnel : augmente légèrement la luminosité */
+}
+.description {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: rgba(245, 218, 188, 0.9);
+    color: #666;
+    text-align: center;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "sourgummy";
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+@media screen and (max-width: 1100px) {
+    .grid-container2 {
+        grid-template-columns: repeat(2, 1fr); /* 2 colonnes */
+
+        .card2{
+            margin-top: 20px;
+        }
+    }
+}
+
+/* Responsive : 1 colonne en dessous de 480px */
+@media (max-width: 480px) {
+    .grid-container2 {
+        grid-template-columns: 1fr; /* 1 seule colonne */
+        .card2{
+            margin-top: 20px;
+        }
+    }
+}
+
+.container-cadre {
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,238 @@
+footer {
+    .spacer {
+        background-color: $color2;
+        display: flex;justify-content: center;
+        span{
+            display: block;
+            width: 80%; /* Prend toute la largeur du conteneur */
+            height: 2px; /* Épaisseur de la barre */
+            background-color: $color3; /* Couleur de la barre (modifiable) */
+    }
+    }
+
+  .footercontainer {
+    height: auto; /* Ajustez selon vos besoins */
+    background-color: $color2;
+    color: $color1;
+    padding: 0 20px;
+    text-align: center;
+
+    .bloccontainer {
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        gap: 40px;
+        max-width: 80%;
+        margin: auto;
+        padding: 10px 0px;
+        div {
+            flex: 1;
+            max-width: 600px;
+        }
+    }
+
+    h3 {
+        font-size: 22px;
+        font-weight: bold;
+        margin-bottom: 10px;
+        color: $color3;
+    }
+
+    p {
+        font-size: 16px;
+        line-height: 1.6;
+    }
+
+    
+    }
+.service{
+ ul li {
+    list-style-type: none;
+    color: $color4;
+    a{
+        color: $color4;
+    }
+ }
+}
+    .reseausociaux {
+        text-align: center;
+        img {
+            width:50px;
+            height: auto;
+            aspect-ratio: 1/1;
+            margin: 10px 20px;
+            border-radius: 10px;
+            transition: transform 0.3s ease-in-out;
+    
+            &:hover {
+                transform: scale(1.1);
+            }
+        .icons {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+
+            img {
+                border-radius: 15px;
+                width: 40px;
+                height: 40px;
+            }
+        }
+    }
+}
+.droits{
+text-align: left;
+    padding: 10px;
+    a{
+        font-weight: bold;
+        text-decoration: none;
+        color: black;
+        &:hover{
+color: $color4;
+        }
+    }
+  }
+/* Responsive */
+@media screen and (max-width: 1000px) {
+
+    .footercontainer {
+        height: auto;
+        .bloccontainer {
+            flex-direction: column;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}
+}
+
+.bottom{
+    display: flex;justify-content: space-between;align-items: center;
+    a{
+        color: #333;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .droits{
+        font-size: 12px;
+    }
+}
+.footercontainer2 {
+    height: auto; /* Ajustez selon vos besoins */
+    background-color: $color1;
+    padding: 0 50px;
+    text-align: center;
+
+    .bloccontainer {
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        gap: 40px;
+        max-width: 80%;
+        margin: auto;
+        padding: 10px 0px;
+        div {
+            flex: 1;
+            max-width: 600px;
+        }
+    }
+
+    h3 {
+        font-size: 22px;
+        font-weight: bold;
+        margin-bottom: 10px;
+        color: $color4;
+    }
+
+    p {
+        font-size: 16px;
+        line-height: 1.6;
+    }
+
+    
+    }
+.service{
+ ul li {
+    list-style-type: none;
+    color: $color4;
+    a{
+        color: $color4;
+    }
+ }
+}
+    .reseausociaux {
+        text-align: center;
+        img {
+            width: 60px;
+            margin: 10px 20px;
+            border-radius: 10px;
+            transition: transform 0.3s ease-in-out;
+    
+            &:hover {
+                transform: scale(1.1);
+            }
+        .icons {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+
+            img {
+                width: 40px;
+                height: 40px;
+            }
+        }
+    }
+}
+
+.container-droits{
+    background-color: $color2;
+    display: flex;align-items: center;
+    justify-content: space-around;
+    .droits{
+
+    text-align: left;
+        padding: 10px;
+        a{
+            font-weight: bold;
+            text-decoration: none;
+            color: black;
+            &:hover{
+    color: $color4;
+            }
+        }
+      }
+      a{
+        color: #333;
+      }
+}
+
+/* Responsive */
+@media screen and (max-width: 1000px) {
+
+    .footercontainer {
+        height: auto;
+        .bloccontainer {
+            flex-direction: column;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}
+
+.bottom{
+    display: flex;justify-content: space-between;align-items: center;
+    a{
+        color: #333;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .droits{
+        font-size: 12px;
+    }
+}

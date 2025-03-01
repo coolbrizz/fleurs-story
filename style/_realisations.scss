@@ -1,0 +1,52 @@
+.container9{
+    background-color: $color2;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    min-height: auto;
+    h1{
+        padding: 10px;
+        color: $color4;
+    }
+    .scroll-container {
+        width: 100%;
+        overflow: hidden;
+        white-space: nowrap;
+        position: relative;
+    }
+    
+    /* Conteneur des images (on le double pour créer l'effet) */
+    .scroll-content {
+        display: flex;
+        width: calc(100% * 2); /* Double la largeur pour éviter la coupure */
+        max-height: 650px;
+        animation: scroll 90s linear infinite;
+    }
+    
+    /* Images */
+    .scroll-content img {
+        min-width: 100vw; /* Ajuste à la taille de l'écran */
+        flex-shrink: 0; /* Empêche le rétrécissement des images */
+    }
+    
+    /* Animation continue */
+    @keyframes scroll {
+        from {
+            transform: translateX(30%);
+        }
+        to {
+            transform: translateX(-500%);
+        }
+    }
+    @media (max-width: 768px) {
+            .scroll-content{
+  max-height: 500px;
+  animation: scroll 60s linear infinite;
+            }
+        }
+        @media (max-width: 380px) {
+            .scroll-content{
+  max-height: 500px;
+  animation: scroll 40s linear infinite;
+            }
+        }
+}
