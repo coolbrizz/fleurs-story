@@ -1,6 +1,8 @@
 User-agent: *
 
 Allow: /
+Disallow: /config.php
+Disallow: /get_reviews.php
 
 Sitemap: https://fleurs-story.fr/sitemap.xml
 

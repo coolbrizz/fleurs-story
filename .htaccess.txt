@@ -56,3 +56,7 @@ ErrorDocument 404 /404.html
 Redirect 301 /page-dupliquee https://www.fleurs-story.fr
 
 
+<Files "config.php">
+  Order Allow,Deny
+  Deny from all
+</Files>

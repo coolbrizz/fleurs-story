@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- ✅ Titre optimisé pour le SEO -->
     <title>Fleurs Story - Formulaire de contact</title>
+    <meta name="robots" content="noindex, nofollow">
 
     <!-- ✅ Meta Description (importante pour le SEO) -->
     <meta name="description" content="Fleurs Story | Formulaire de contact">

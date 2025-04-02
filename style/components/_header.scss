@@ -34,34 +34,31 @@ font-family: "sourgummy";
     text-decoration: underline;
   }
   
- 
-  
-  .nav-links .lien:hover::after, .nav-links .lien.active::after {
-    width: 100%;
-  }
 .logo-img {
-
-    top : -100px;
+top: -10px;
 left : 50%;
 transform: translateX(-50%);
-height: 30vh;
-width: 30vh;
+height: 150px;
+width: 170px;
+max-height: 30vh;
+max-width: 30vh;
 padding: 0;
 margin: 0;
-border-radius: 250px;
+border-radius: 100%;
 background-color: $color1;
     position: absolute;
     img{
         position: absolute;
-        bottom : 5px;
-        left : 15%;
-        height: 20vh;
+        height: 150px;
+        width: auto;
+        left: 7px;
     }
 }
 
 /* Section Hero */
 .hero {
     background: url('/Images/back2.webp') center/cover no-repeat;
+    width: 100%;
     height: 650px;
     display: flex;
     justify-content: flex-start;
@@ -72,7 +69,7 @@ background-color: $color1;
     margin: 100px 50px 0 0 ;
 }
 
-.hero-text h1 {
+.hero-text h2 {
     font-size: 60px;
     font-weight: bold;
     text-align: center;
@@ -160,14 +157,14 @@ z-index: 1000;
 }
 }
 @media screen and (max-width: 1000px) {
-    .hero .hero-text h1{
+    .hero .hero-text h2{
         color: #666;
     }
     .hero{
         max-height: 500px;
     }}
 @media screen and (max-width: 468px) {
-    .hero .hero-text h1{
+    .hero .hero-text h2{
         display: none;
     }
 .hero{

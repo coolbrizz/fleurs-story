@@ -110,17 +110,10 @@ flex-direction: column;
 
 .card img {
     width: 100%;
-    height: 100%;
+    max-width: 320px;max-height: 280px;
+height: 100%;
     object-fit: cover;
     transition: transform 0.3s ease, filter 0.3s ease;
-}
-
-.card:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
-    background: rgba(154, 186, 163, 0.8);
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
 }
 
 .card:hover img {
@@ -136,19 +129,18 @@ flex-direction: column;
     color: #666;
     text-align: center;
     padding: 15px;
-    font-size: 20px; /* Correction, 55px est trop grand */
+    font-size: 20px;
     font-weight: bold;
     font-family: "sourgummy", sans-serif;
     z-index: 100;
-    transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
+    transition: transform 0.4s ease, box-shadow 0.3s ease, background 0.3s ease;
 }
 
 .card:hover .description {
     transform: translateY(-10px);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
     background: rgba(154, 186, 163, 0.8);
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border-radius: 10px 10px 0 0;
 }
 
 button{

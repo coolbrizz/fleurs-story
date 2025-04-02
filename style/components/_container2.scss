@@ -1,21 +1,31 @@
 .container2 {
     position: relative;
-    min-height: 80vh;
+    min-height: 90vh;
     background-color: #9ABAA3;
     text-align: center;
     top: -120px;
-    padding: 20px;
+    padding: 20px 0px;
+ 
+    
+.bloc-container2{
+    max-width: 1200px;
+    width: 80%;
+    margin: 0 auto;
 
-
+}
+    h1{
+        margin-top: 60px;
+        font-size: 2rem;
+        color: #333;
+    }
 }
 
 .bloc-fleuriste {
     display: flex;
     align-items: center;
-width: 80%;
-    margin: auto;
-    padding-top: 120px;
-    max-width: 1200px;
+
+    margin: auto;    padding-top: 40px;
+
     margin: auto;
     z-index: 0;
     gap: 30px;
@@ -49,32 +59,33 @@ width: 80%;
 @media screen and (max-width: 1180px) {
     .bloc-fleuriste {
         flex-direction: column;
-        margin: 0 50px;
+        margin: 0 auto;
         padding-top: 80px;
-    }
 
-    .bloc-fleuriste img {
-        max-width: 30%;
-    }
-
-    .texte-fleuriste p {
-        width: 90%;
-        font-size: 2vh;
-        padding-bottom: 100px;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .bloc-fleuriste {
-        margin: 0 30px;
-        padding-top: 50px;
-        max-width: none;
     }
 
     .bloc-fleuriste img {
         max-width: 70%;
     }
 
+    .texte-fleuriste p {
+        width: 100%;
+        font-size: 2vh;
+        padding-bottom: 10px;
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .bloc-fleuriste {
+        padding-top: 50px;
+        max-width: none;
+        margin: 0 auto;
+    }
+
+    .bloc-fleuriste img {
+        max-width: 70%;
+    }
     .texte-fleuriste h2 {
         font-size: 2rem;
         text-align: center;
@@ -85,6 +96,8 @@ width: 80%;
         font-size: 1.6vh;
         text-align: justify;
         padding: 0;
+        text-align: center;
+
     }
 }
 @media screen and (max-width: 600px) {

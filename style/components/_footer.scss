@@ -116,6 +116,7 @@ color: $color4;
     }
 }
 @media screen and (max-width: 1000px) {
+    .container-droits{display: flex;flex-direction: column;}
     .droits{
         font-size: 12px;
     }
