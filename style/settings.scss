@@ -1,17 +1,17 @@
 @charset "UTF-8";
 @font-face {
-    font-family: 'sourgummy';
-    src: url('/style/fonts/SourGummy-VariableFont_wdth\,wght.ttf') format('truetype');
+  font-family: "sourgummy";
+  src: url("/style/fonts/SourGummy-VariableFont_wdth\,wght.ttf")
+    format("truetype");
 }
 @font-face {
-    font-family: 'roboto';
-    src: url('/style/fonts/Roboto-VariableFont_wdth\,wght.ttf') format('truetype');
+  font-family: "roboto";
+  src: url("/style/fonts/Roboto-VariableFont_wdth\,wght.ttf") format("truetype");
 }
-$color1 : #FDFBF9;
-$color2: #9ABAA3;
-$color3 :rgb(245, 218, 188);
-$color4 : #666;
-
+$color1: #fdfbf9;
+$color2: #9abaa3;
+$color3: rgb(255, 221, 185);
+$color4: #666;
 
 * {
   margin: 0;
@@ -19,22 +19,24 @@ $color4 : #666;
   box-sizing: border-box;
 }
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 body {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    overflow-x: hidden; 
-    overscroll-behavior: none;
-    scroll-behavior: smooth;
-    -webkit-overflow-scrolling: touch;
-    p{
-        font-family: "roboto";
-        color: #666;
-    }
-    h1,h2,h3{
-        font-family: "sourgummy",sans-serif;
-    }
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  overflow-x: hidden;
+  overscroll-behavior: none;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+  p {
+    font-family: "roboto";
+    color: #666;
+  }
+  h1,
+  h2,
+  h3 {
+    font-family: "sourgummy", sans-serif;
+  }
 }

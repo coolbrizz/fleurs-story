@@ -29,6 +29,8 @@ body p {
   font-family: "roboto";
   color: #666;
 }
-body h1, body h2, body h3 {
+body h1,
+body h2,
+body h3 {
   font-family: "sourgummy", sans-serif;
 }/*# sourceMappingURL=settings.css.map */

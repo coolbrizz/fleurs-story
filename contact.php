@@ -52,7 +52,7 @@
             </div>
         </div>
         <div class="logo-img">
-            <img src="/Images/logo_svg.png" alt="Fleurs Story">
+            <img src="/Images/logo_svg.avif" alt="Fleurs Story">
         </div>
     </header>
     <div class="container-contact">
@@ -169,10 +169,10 @@
                     <h3>Rejoignez-nous sur les réseaux sociaux</h3>
                     <div class="icons">
                         <a href="https://www.facebook.com/profile.php?id=100055470117028">
-                            <img src="/Images/facebook.webp" alt="Suivez Fleurs story sur Facebook">
+                            <img src="/Images/facebook.avif" alt="Suivez Fleurs story sur Facebook">
                         </a>
                         <a href="https://www.instagram.com/fleurs.story/">
-                            <img src="/Images/instagram.webp" alt="Suivez fleurs story sur Instagram">
+                            <img src="/Images/instagram.avif" alt="Suivez fleurs story sur Instagram">
                         </a>
                     </div>
                 </div>
